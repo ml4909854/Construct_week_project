@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign.html</title>
+</head>
+
+<body>
+
+    <style>
+        #sign_in>div {
+            cursor: pointer;
+            width: 100%;
+            height: 870px;
+            background-color: #EEEEEE;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #sign_in>div:nth-child(2) {
+         
+            width: 651px;
+            border: 1px solid black;
+            height: 10px;
+        }
+
+        #sign_in>div>div:nth-child(1) {
+            
+            height: 151px;
+            width: 651px;
+            margin-bottom: -40px;
+            background-color: transparent;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        #sign_in>div>div:nth-child(2) {
+            width: 651px;
+            height: 676px;
+            background-color: white;
+        }
+
+        #join {
+            width: 651px;
+            height: 70px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid rgb(188, 181, 181);
+            align-items: center;
+            text-align: center;
+        }
+
+        #join>div {
+            width: 330px;
+            height: 68px;
+            /* border: 1px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+
+
+        }
+
+        #JoinPage {
+            width: 651px;
+            border-right: 1px solid rgb(173, 167, 167);
+        }
+
+        #Input {
+            margin-top: 50px;
+            text-align: justify;
+            background-color: #FFFFFF;
+            margin-left: 0px;
+
+        }
+
+        #Input>label {
+            width: 360px;
+            font-size: 14px;
+            height: 23px;
+            margin: 0px 11px 11px 0px;
+            text-align: justify;
+        }
+
+        #Input>input {
+            width: 360px;
+            height: 49.8px;
+            padding: 0px 20px;
+        }
+
+        #Input>button {
+            width: 360px;
+            height: 45px;
+            background-color: black;
+            color: white;
+            font-size: 14px;
+
+        }
+
+        #Input>p {
+            font-size: 16px;
+            margin-left: 130px;
+        }
+
+        #Input>h2 {
+            margin-top: -20px;
+            margin-left: 80px;
+        }
+
+        #google {
+            width: 651px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        #google>div {
+            width: 180px;
+            height: 50px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 30px;
+        }
+
+        #google img {
+            width: 20px;
+        }
+
+
+        #mahesh_kumar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        #mahesh_kumar p {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        #mahesh_kumar button {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.3s ease-in-out;
+            margin-top: 20px;
+        }
+
+        #mahesh_kumar button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+
+    <section id="sign_in">
+        <div>
+            <div>
+                <img src="https://my.asos.com/Content/images/asos-logo-2022-93x28.png" alt="">
+            </div>
+
+            <div id="mahesh_kumar">
+                <div id="join">
+                    <div>
+                        <p id="JoinPage">JOIN</p>
+                    </div>
+                    <div id="signdiv">
+                        <p>SIGN IN</p>
+                    </div>
+                </div>
+                <form id="sign_in_form"> <!-- Use a form element here -->
+                    <div id="Input">
+                        <label for="email">EMAIL ADDRESS :</label><br><br>
+                        <input type="email" name="email" id="email"><br>
+                        <br>
+                        <label for="password">PASSWORD :</label><br><br>
+                        <input type="password" name="password" id="password">
+                        <br>
+                        <br>
+                        <br>
+
+                        <button type="submit" id="signBtn">SIGN IN</button> <!-- Use type="submit" -->
+                        <p>forgot password</p>
+                        <br>
+                        <br>
+                        <h2>OR SIGN IN WITH...</h2>
+                    </div>
+                </form>
+                <div id="google">
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">
+                        <p>GOOGLE</p>
+
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/731/731985.png" alt="">
+                        <p>APPLE</p>
+
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/145/145802.png" alt="">
+                        <p>FACEBOOK</p>
+                    </div>
+                </div>
+                <a id="para">Where has Twitter Gone? </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function validateForm(event) {
+            event.preventDefault(); // Prevent default form submission behavior
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            if (email === "" || password === "") {
+                alert("Please fill in all fields.");
+            } else if (password.length < 8) {
+                alert("Your password length should be at least 8 characters.");
+            } else {
+                accept();
+            }
+        }
+
+        let signBtn = document.getElementById("signBtn")
+        signBtn.addEventListener("click", function () {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            email.innerHTML = ""
+            password.innerHTML = ""
+        })
+
+
+        function accept() {
+            let mahesh_kumar = document.getElementById("mahesh_kumar");
+
+            mahesh_kumar.innerHTML = "";
+
+            let p1 = document.createElement("p");
+            p1.innerHTML = `Your account is created.<br> You can go and shop now.`;
+            mahesh_kumar.appendChild(p1);
+
+            let button = document.createElement("button");
+            button.innerHTML = "SHOP NOW";
+            button.onclick = function () {
+                setTimeout(() => {
+                    window.location.href = "men.html";
+                }, 1000);
+                // Navigate to a new page
+            };
+            mahesh_kumar.appendChild(button);
+        }
+
+        document.getElementById("sign_in_form").addEventListener("submit", validateForm);
+
+        let JoinPage = document.getElementById("JoinPage")
+        JoinPage.addEventListener("click", function () {
+            setTimeout(() => {
+                window.location.href = "join.html"
+            }, 1000);
+        })
+
+        // js for signin page 
+
+        window.onload = function () {
+            setTimeout(() => {
+                document.getElementById("signdiv").style.borderBottom = "2px solid blue"
+            });
+        }
+    </script>
+
+</body>
+
+</html>

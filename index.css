@@ -1,0 +1,1947 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* First navbar section css */
+#section_1 > div {
+  display: inline-flex;
+  justify-content: end;
+  width: 100%;
+  height: 30px;
+  border: 0.1px solid rgb(235, 230, 230);
+  color: #666666;
+  text-align: center;
+}
+
+#section_1 > div > div {
+  border: 0.1px solid rgb(235, 230, 230);
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* second navbar section css */
+#section_2 > div {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #2d2d2d;
+  color: white;
+}
+
+#section_2 > div > div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#section_2 > div > div > a {
+  color: white;
+  text-decoration: none;
+}
+
+/* hover second women items of a Products */
+.anchor:hover {
+  background-color: #525050;
+}
+
+/* we are give a white color of a icon */
+.white-icon {
+  filter: brightness(0) invert(1);
+  font-weight: bold;
+}
+
+/* css for icons */
+.icon {
+  width: 50px;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  background-image: url("https://cdn-icons-png.flaticon.com/128/622/622669.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 730px center;
+  padding-left: 40px;
+  outline: none;
+  margin: 0 auto;
+}
+
+/* Men navbar css starts here */
+.men-women {
+  width: 114px;
+  height: 96%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 0.1px solid rgb(92, 88, 88);
+}
+
+#asos{
+  cursor: pointer;
+}
+.anchor > a {
+  cursor: pointer;
+  margin-top: -1px;
+  font-size: 16px;
+}
+
+.men-navbar {
+  width: 100%;
+  height: 50px;
+  color: white;
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #525050;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.men-navbar > div {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* men nabar div hover */
+.men-navbar > div:hover {
+  background-color: #eeeeee;
+  color: black;
+}
+
+.menbg-color {
+  background-color: #525050;
+}
+
+/* Section_3 css */
+#section_3 {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #525050;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+#section_3 > div {
+  text-align: center;
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+}
+
+#section_3 > div:nth-child(1) {
+  margin-left: 30px;
+}
+
+#section_3 > div:hover {
+  background-color: white;
+  color: black;
+}
+
+#section_3 > div span:hover {
+  color: black;
+}
+
+.bg-color {
+  background-color: #525050;
+}
+
+/* Section_4 css */
+
+#section_4 > div {
+  width: 100%;
+  height: 48px;
+  background-color: white;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section_4 > div > div > span {
+  padding: 2px 20px 2px 20px;
+}
+
+#section_4 > div > div > h6 {
+  margin: 0px;
+  /* Reset default margin */
+  padding: 0px;
+  font-size: 14px;
+}
+
+#section_4 > div > div:nth-child(1) {
+  margin-left: 50px;
+}
+
+#section_4 > div > div:nth-child(2) {
+  text-align: center;
+}
+
+#section_4 > div > div:nth-child(3) {
+  margin-right: 50px;
+}
+
+/* css for section_5 */
+
+#section_5 {
+  width: 100%;
+  height: 315px;
+  background-image: linear-gradient(#ffd17e, RED, #ffd17e);
+  text-align: center;
+}
+
+#section_5 > button:nth-child(1) {
+  margin-top: 80px;
+  width: 500px;
+  border: 4px solid black;
+  padding: 10px;
+  border-radius: 60px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#section_5 > button:nth-child(4),
+#section_5 > button:nth-child(3) {
+  margin-top: 25px;
+  padding: 8px;
+  border-radius: 40px;
+  background-color: black;
+  border: 3px solid white;
+  color: white;
+  font-size: 24px;
+  font-weight: 100px;
+}
+
+#section_5 > :nth-child(6) {
+  margin-top: 60px;
+  font-size: 14px;
+  color: rgb(97, 88, 88);
+}
+
+#section_5 > button:nth-child(4) {
+  margin-left: 20px;
+}
+
+/* css for section 6 */
+
+#section_6 {
+  width: 100%;
+  height: 650px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* css for section_7 */
+#section_7 {
+  width: 100%;
+  height: 484px;
+  cursor: pointer;
+  gap: 25px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+#bold {
+  font-weight: bold;
+}
+
+#section_7 > div > :nth-child(3) {
+  font-size: 18px;
+}
+
+/* css for section_8 */
+#section_8 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  margin-top: 50px;
+}
+
+#section_8 div {
+  text-align: center;
+}
+
+#section_8 img {
+  width: 498px;
+  max-width: 650px;
+  height: auto;
+  border: 5px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+  border-left: 10px solid red;
+  border-right: 10px solid lightgreen;
+  border-bottom: 10px solid pink;
+  border-top: 10px solid rgb(135, 28, 249);
+}
+
+#section_8 img:hover {
+  border-color: #ff4500;
+  /* or any other color you prefer */
+}
+
+.large {
+  margin-bottom: -10px;
+  text-decoration: none;
+  color: #333;
+  /* or any other color you prefer */
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.small {
+  margin-bottom: -10px;
+  text-decoration: none;
+  color: #333;
+  /* or any other color you prefer */
+  font-size: 18px;
+}
+
+.shop-now-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 20px 50px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.shop-now-btn:hover {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  transform: scale(1.1);
+}
+
+/* section_9 css */
+#section_9 {
+  margin-top: 50px;
+}
+
+#section_9 > div {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  background-image: linear-gradient(to right, #9cf0e0, #9449fe);
+}
+
+.btn1 {
+  padding: 8px 30px;
+  border-radius: 50px;
+  margin-top: 30px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+#section_9 > div > p {
+  font-weight: bold;
+  color: white;
+  font-size: 28px;
+  margin-top: -10px;
+}
+
+.btn2 {
+  padding: 8px 40px;
+  border-radius: 50px;
+  margin-top: -15px;
+  background-color: white;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+}
+
+/* section_10 css starts here  */
+#section_10 {
+  margin: 50px 0px 25px;
+  width: 100%;
+  height: 266px;
+}
+
+#section_10 > div {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section_10 > div > img {
+  width: 192px;
+  height: 192px;
+}
+
+#section_10 > H1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* section_11 css */
+#section_11 {
+  width: 100%;
+  height: 61px;
+}
+
+#section_11 > div {
+  cursor: pointer;
+  width: 100%;
+  height: 61px;
+  border-top: 1px solid rgb(235, 230, 230);
+}
+
+#section_11 > div {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+#section_11 > div > img {
+  width: 30px;
+  height: 30px;
+}
+
+#section_11 > div > img:nth-child(3) {
+  padding-right: 60px;
+  border-right: 1px solid rgb(143, 139, 139);
+}
+
+/* Footer Section css  starts here */
+#section_12 {
+  width: 100%;
+  background-color: #eeeeee;
+  height: 302px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#section_12 > div {
+  margin: 32px;
+  margin-top: 60px;
+  width: 315px;
+  height: 302px;
+}
+
+#section_12 > div > h2 {
+  font-size: 16px;
+  color: #6d6868;
+}
+
+#section_12 > div > li,
+a {
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+  color: #7f7b7b;
+  margin-top: 15px;
+}
+
+#section_12 > div:nth-child(4) > div {
+  color: #7f7b7b;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+#section_12 > div:nth-child(4) > div > img {
+  border-right: 1px solid #666565;
+  width: 20px;
+  padding: 0px 15px 0px 10px;
+  height: 20px;
+  margin: 10px;
+}
+
+#section_12 > div:nth-child(4) > div > img:hover {
+  width: 20px;
+  height: 20px;
+  border: 1px solid blue;
+}
+
+.shop-para {
+  font-size: 14px;
+  color: #7f7b7b;
+}
+
+.shoping > img {
+  border-radius: 100px;
+  border: 1px solid #858181;
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+}
+
+.shoping > img:hover {
+  border: 2px solid blue;
+}
+
+/* Section_13 css */
+
+#section_13 {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(221, 221, 221);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#section_13 > div {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+  color: #7f7b7b;
+}
+
+#section_12 > div > li,
+a {
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+  color: #7f7b7b;
+  margin-top: 15px;
+}
+
+#section_12 > div:nth-child(4) > div {
+  color: #7f7b7b;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+#section_12 > div:nth-child(4) > div > img {
+  border-right: 1px solid #666565;
+  width: 20px;
+  padding: 0px 15px 0px 10px;
+  height: 20px;
+  margin: 10px;
+}
+
+/* Position the dropdown content relative to the icon */
+.icon {
+  position: relative;
+  display: inline-block;
+}
+#hoverIcon:hover {
+  border: 2px solid goldenrod;
+}
+
+/* Style for the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 300px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 250px;
+  margin-top: 30px;
+  margin-left: -200px;
+  z-index: 1;
+}
+.dropdown-div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+/* Style for the dropdown links */
+.dropdown-content a {
+  color: black;
+  display: block;
+  padding: 8px px;
+}
+
+/* Show the dropdown content when hovering over the icon */
+.icon:hover .dropdown-content {
+  display: block;
+}
+.dropdown-div {
+  background-color: #e8e4e4;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 50px;
+  /* border: 1px solid rgb(22, 14, 14); */
+  gap: 160px;
+}
+.dropdown-div > div {
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  /* border: 1px solid black; */
+}
+.dropdown-div > div > a :nth-child(1) {
+  display: flex;
+  margin-top: -2px;
+}
+.dropdown-div > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+.dropdown-div > div:nth-child(2) img {
+  width: 20px;
+  height: 20px;
+}
+
+#Account {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  /* border:  1px solid black; */
+  justify-content: start;
+  flex-direction: column;
+}
+#Account > div {
+  width: 100%;
+  height: 50px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  gap: 15px;
+}
+.sign {
+  margin-left: 10px;
+}
+#Account > div > img {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-top: 13px;
+  margin-left: 20px;
+  color: gray;
+}
+
+/* this css code for newin function */
+
+section#New_in_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 468px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  display: none;
+  justify-content: start;
+}
+
+#New_in_container > div {
+  width: 290px;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 14px;
+  height: 420px;
+  display: flex;
+  color: black;
+  flex-direction: column; /* Change to column */
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+section#New_in_container h4 {
+  margin-top: 0;
+  margin-right: 100px;
+}
+
+section#New_in_container div img {
+  border: 0.1px solid rgb(210, 214, 214);
+}
+
+section#New_in_container div p {
+  margin: 0;
+}
+
+#New_in_container > div:nth-child(1) {
+}
+
+#New_in_container > div:nth-child(1) > li {
+  color: rgb(79, 74, 74);
+  margin-left: 20px;
+  text-align: justify;
+}
+
+#New_in_container > div:nth-child(1) > li:hover {
+  color: blue;
+}
+
+#New_in_container > div:nth-child(3),
+#New_in_container > div:nth-child(4),
+#New_in_container > div:nth-child(2) {
+  border-left: 1px solid rgb(207, 202, 202);
+}
+
+#New_in_container > div:nth-child(4) h4 {
+  margin-right: 180px;
+}
+#New_in_container > div:nth-child(3) > div > div,
+#New_in_container > div:nth-child(2) > div > div {
+  width: 200px;
+  font-size: 12px;
+  margin-right: 15px;
+  padding: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  border-bottom: 1px solid rgb(213, 210, 210);
+}
+
+#New_in_container > div:nth-child(3) > div:hover,
+#New_in_container > div:nth-child(2) > div:hover {
+  color: blue;
+}
+
+#New_in_container > div:nth-child(3) > div > img,
+#New_in_container > div:nth-child(2) > div > img {
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+#New_in_container {
+  display: none;
+}
+
+#newInPage:hover section#New_in_container {
+  display: flex; /* Change to flex */
+  margin-top: 16px;
+}
+
+/* css for women clothing section   */
+
+section#clothes_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 468px;
+  margin-top: 565px;
+  margin-left: 1140px;
+  display: flex;
+  text-align: justify;
+  position: absolute;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#clothes_container > div {
+  width: 290px;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: black;
+  height: 420px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+section#clothes_container h4 {
+  margin-top: 0;
+}
+
+section#clothes_container div p {
+  margin: 0;
+}
+
+#clothes_container > div:nth-child(1) > li:hover {
+  color: blue;
+}
+
+#clothes_container > div:nth-child(3),
+#clothes_container > div:nth-child(4) {
+  border-left: 1px solid rgb(207, 202, 202);
+}
+
+#clothes_container > div:nth-child(3) > div > div {
+  width: 200px;
+  font-size: 12px;
+  margin-right: 15px;
+  padding: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+.grid-cloth-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  gap: 10px;
+  /* Adjust this according to your preference */
+}
+
+.grid-cloth-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.grid-cloth-item img {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+  /* Space between image and text */
+}
+.grid-cloth-item:hover img {
+  border: 1px solid blue;
+}
+
+.grid-cloth-item:hover p {
+  border: none;
+  color: blue;
+}
+
+section#clothes_container {
+  display: none;
+}
+
+#clothing:hover section#clothes_container {
+  display: flex;
+}
+
+/* css for trending section */
+
+#trending {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 340px;
+  position: absolute;
+  display: flex;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#trending > div {
+  height: 315px;
+  width: 312px;
+  margin-top: 20px;
+  margin-left: 5px;
+  display: flex;
+  gap: 0px;
+  background-color: transparent;
+  border-left: 1px solid rgb(219, 214, 214);
+}
+
+#trending > div > div {
+  width: 268px;
+  height: 306px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#trending > div > div > img {
+  width: 268px;
+  height: 306px;
+  margin-top: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#trending > div > div > img:hover {
+  border: 1px solid blue;
+}
+#trending > div > div > h2 {
+  margin-top: -50px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#trending {
+  display: none;
+}
+
+#trends:hover #trending {
+  display: flex;
+  margin-left: 996px;
+  margin-top: 438px;
+}
+
+/* css for trending section */
+
+section#Dress_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 468px;
+  margin-top: 565px;
+  margin-left: 868px;
+  display: flex;
+  text-align: justify;
+  position: absolute;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#Dress_container > div {
+  width: 298px;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: black;
+  height: 420px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+section#Dress_container h4 {
+  margin-top: 0;
+}
+
+section#Dress_container div p {
+  margin: 0;
+}
+
+section#Dress_container > div:nth-child(1) > li:hover {
+  color: blue;
+}
+
+#Dress_container > div:nth-child(3),
+#Dress_container > div:nth-child(2),
+#Dress_container > div:nth-child(4) {
+  border-left: 1px solid rgb(207, 202, 202);
+}
+
+#Dress_container > div:nth-child(3) > div > div {
+  width: 200px;
+  font-size: 12px;
+  margin-right: 15px;
+  padding: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+
+#Dress_container > div:nth-child(1) a:hover {
+  color: blue;
+}
+
+.grid-dress-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  gap: 10px;
+  /* Adjust this according to your preference */
+}
+
+.grid-dress-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.grid-dress-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* Space between image and text */
+}
+
+.grid-dress-item:hover img {
+  border: 1px solid blue;
+}
+
+.grid-dress-item:hover p {
+  border: none;
+  color: blue;
+}
+
+section#Dress_container {
+  display: none;
+}
+
+#dressed:hover section#Dress_container {
+  display: flex;
+  /* margin-left: 996px;
+  margin-top: 438px; */
+}
+
+/* css for shoe section */
+
+section#shoes_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 468px;
+  display: flex;
+  text-align: justify;
+  position: absolute;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#shoes_container > div {
+  width: 298px;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: black;
+  height: 420px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+section#shoes_container h4 {
+  margin-top: 0;
+}
+
+section#shoes_container div p {
+  margin: 0;
+}
+
+#shoes_container > div:nth-child(1) > a:hover {
+  color: blue;
+}
+
+#shoes_container > div:nth-child(3),
+#shoes_container > div:nth-child(2),
+#shoes_container > div:nth-child(4) {
+  border-left: 1px solid rgb(207, 202, 202);
+}
+
+#shoes_container > div:nth-child(3) > div > div {
+  width: 200px;
+  font-size: 12px;
+  margin-right: 15px;
+  padding: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+
+.grid-shoes-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  gap: 10px;
+  /* Adjust this according to your preference */
+}
+
+.grid-shoes-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+.listhover :hover {
+  color: blue;
+}
+
+.grid-shoes-item img {
+  width: 80px;
+  height: 80px;
+
+  border-radius: 50%;
+  /* Space between image and text */
+}
+
+.grid-shoes-item:hover img {
+  border: 1px solid blue;
+}
+
+.grid-shoes-item:hover p {
+  border: none;
+  color: blue;
+}
+
+section#shoes_container {
+  display: none;
+}
+
+#shoesess:hover section#shoes_container {
+  display: flex;
+  margin-left: -272px;
+  margin-top: 17px;
+}
+
+/* CSS FOR ACCESORIES SECTION */
+
+section#accesories_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 468px;
+  /* margin-top: 565px;
+margin-left: 1140px; */
+  display: flex;
+  text-align: justify;
+  position: absolute;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#accesories_container > div {
+  width: 298px;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: black;
+  height: 420px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+section#accesories_container h4 {
+  margin-top: 0;
+}
+
+section#accesories_container div p {
+  margin: 0;
+}
+
+#accesories_container > div:nth-child(1) > li:hover {
+  color: blue;
+}
+
+#accesories_container > div:nth-child(3),
+#accesories_container > div:nth-child(2),
+#accesories_container > div:nth-child(4) {
+  border-left: 1px solid rgb(207, 202, 202);
+}
+
+#accesories_container > div:nth-child(1) li:hover {
+  color: blue;
+}
+
+section#accesories_container {
+  display: none;
+}
+
+#accesories:hover section#accesories_container {
+  display: flex;
+  margin-left: -349px;
+  margin-top: 17px;
+}
+
+/*  this is the code of the facebody container */
+
+section#facebody_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  margin-top: 17px;
+  display: flex;
+  text-align: justify;
+  position: absolute;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#facebody_container > div {
+  width: 298px;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: black;
+  height: 420px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+section#facebody_container h4 {
+  margin-top: 0;
+}
+
+section#facebody_container div p {
+  margin: 0;
+}
+
+section#facebody_container > div:nth-child(1) > li:hover {
+  color: blue;
+}
+
+#facebody_container > div:nth-child(3),
+#facebody_container > div:nth-child(2),
+#facebody_container > div:nth-child(4) {
+  border-left: 1px solid rgb(207, 202, 202);
+}
+
+#facebody_container > div:nth-child(3) > div > div {
+  width: 200px;
+  font-size: 12px;
+  margin-right: 15px;
+  padding: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+
+#facebody_container > div:nth-child(1) a:hover {
+  color: blue;
+}
+
+.grid-body-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  gap: 10px;
+  font-size: 14px;
+  /* Adjust this according to your preference */
+}
+
+section#facebody_container > div:nth-child(1) li:hover {
+  color: blue;
+}
+
+.grid-body-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.grid-body-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* Space between image and text */
+}
+
+.grid-body-item:hover img {
+  border: 1px solid blue;
+}
+
+.grid-body-item:hover p {
+  border: none;
+  color: blue;
+}
+
+section#facebody_container {
+  display: none;
+}
+
+#Facebody:hover section#facebody_container {
+  display: flex;
+  margin-left: -440px;
+  margin-top: 17px;
+}
+
+/* css for the brand container// */
+
+section#brands_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 468px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  display: none;
+  justify-content: start;
+}
+
+#brands_container > div {
+  width: 290px;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 14px;
+  height: 420px;
+  display: flex;
+  color: black;
+  flex-direction: column; /* Change to column */
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+section#brands_container h4 {
+  margin-top: 0;
+  margin-right: 100px;
+}
+
+section#brands_container div img {
+  border: 0.1px solid rgb(210, 214, 214);
+}
+
+section#brands_container div p {
+  margin: 0;
+}
+
+#brands_container > div:nth-child(1) {
+}
+
+#brands_container > div:nth-child(1) > li {
+  color: rgb(79, 74, 74);
+  margin-left: 20px;
+  text-align: justify;
+}
+
+#brands_container > div:nth-child(1) > li:hover {
+  color: blue;
+}
+
+#brands_container > div:nth-child(3),
+#brands_container > div:nth-child(4),
+#brands_container > div:nth-child(2) {
+  border-left: 1px solid rgb(207, 202, 202);
+}
+
+#brands_container > div:nth-child(4) h4 {
+  margin-right: 180px;
+}
+#brands_container > div:nth-child(3) > div > div,
+#brands_container > div:nth-child(2) > div > div {
+  width: 200px;
+  font-size: 12px;
+  margin-right: 15px;
+  padding: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  border-bottom: 1px solid rgb(213, 210, 210);
+}
+
+#brands_container > div:nth-child(3) > div:hover,
+#brands_container > div:nth-child(2) > div:hover {
+  color: blue;
+}
+
+#brands_container > div:nth-child(3) > div > img,
+#brands_container > div:nth-child(2) > div > img {
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+#brands_container {
+  display: none;
+}
+
+#brands:hover section#brands_container {
+  display: flex; /* Change to flex */
+  margin-top: 17px;
+  margin-left: -528px;
+}
+
+/* css for the sportswear function */
+section#sports_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 468px;
+  /* margin-top: 565px; */
+  /* margin-left: 868px; */
+  display: flex;
+  text-align: justify;
+  position: absolute;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#sports_container > div {
+  width: 298px;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: black;
+  height: 420px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+section#sports_container h4 {
+  margin-top: 0;
+}
+
+section#sports_container div p {
+  margin: 0;
+}
+
+section#sports_container > div:nth-child(1) > li:hover {
+  color: blue;
+}
+
+#sports_container > div:nth-child(3),
+#sports_container > div:nth-child(2),
+#sports_container > div:nth-child(4) {
+  border-left: 1px solid rgb(207, 202, 202);
+}
+
+#sports_container > div:nth-child(3) > div > div {
+  width: 200px;
+  font-size: 12px;
+  margin-right: 15px;
+  padding: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+
+#sports_container > div:nth-child(1) a:hover {
+  color: blue;
+}
+
+.grid-sport-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  gap: 10px;
+  /* Adjust this according to your preference */
+}
+
+.grid-sport-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.grid-sport-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* Space between image and text */
+}
+
+.grid-sport-item:hover img {
+  border: 1px solid blue;
+}
+
+.grid-sport-item:hover p {
+  border: none;
+  color: blue;
+}
+
+section#sports_container {
+  display: none;
+}
+
+#sportwear:hover section#sports_container {
+  display: flex; /* Change to flex */
+  margin-top: 566px;
+  margin-left: 47px;
+}
+
+/* css code for a topshop section */
+
+section#topshops_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 468px;
+  margin-left: -679px;
+  margin-top: 17px;
+  display: flex;
+  text-align: justify;
+  position: absolute;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#topshops_container > div {
+  width: 298px;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: black;
+  height: 420px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+section#topshops_container h4 {
+  margin-top: 0;
+}
+
+section#topshops_container div p {
+  margin: 0;
+}
+
+section#topshops_container > div:nth-child(1) > li:hover {
+  color: blue;
+}
+
+#topshops_container > div:nth-child(3),
+#topshops_container > div:nth-child(2),
+#topshops_container > div:nth-child(4) {
+  border-left: 1px solid rgb(207, 202, 202);
+}
+
+#topshops_container > div:nth-child(3) > div > div {
+  width: 200px;
+  font-size: 12px;
+  margin-right: 15px;
+  padding: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: start;
+}
+
+#topshops_container > div:nth-child(1) a:hover {
+  color: blue;
+}
+
+section#topshops_container {
+  display: none;
+}
+
+#topshop:hover section#topshops_container {
+  display: flex; /* Change to flex */
+  margin-top: 600pxpx;
+}
+
+/* css for the market section */
+
+#market_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 280px;
+  margin-left: -753px;
+  margin-top: 17px;
+  position: absolute;
+  display: flex;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#market_container > div {
+  height: 315px;
+  width: 312px;
+  margin-top: 20px;
+  margin-left: 5px;
+  display: flex;
+  gap: 0px;
+  background-color: transparent;
+  border-left: 1px solid rgb(219, 214, 214);
+}
+
+#market_container > div > div {
+  width: 268px;
+  height: 306px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+#market_container > div > div > div {
+  width: 268px;
+  height: 50px;
+  color: black;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  text-align: justify;
+}
+#market_container > div > div > div > p {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+#market_container > div > div > img {
+  width: 268px;
+  height: 150px;
+  margin-top: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#market_container > div > div > h2 {
+  margin-top: -200px;
+  margin-left: -360px;
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#market_container {
+  display: none;
+}
+
+#marketplace:hover #market_container {
+  display: flex;
+}
+
+/* Thiss is the code for the sales section */
+
+section#sales_container {
+  background-color: #eeeeee;
+  width: 1280px;
+  height: 468px;
+  margin-top: 17px;
+  margin-left: -845px;
+  display: flex;
+  text-align: justify;
+  position: absolute;
+  padding: 24px 10px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#sales_container > div {
+  width: 594px;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: black;
+  height: 420px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+
+section#sales_container h4 {
+  margin-top: 0;
+}
+
+section#sales_container div p {
+  margin: 0;
+}
+#sales_container > div:nth-child(3),
+#sales_container > div:nth-child(2),
+#sales_container > div:nth-child(4) {
+  border-left: 1px solid rgb(207, 202, 202);
+}
+
+.grid-sale-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  gap: 10px;
+  /* Adjust this according to your preference */
+}
+
+.grid-sale-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.grid-sale-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* Space between image and text */
+}
+
+.grid-sale-item:hover img {
+  border: 1px solid blue;
+}
+
+.grid-sale-item:hover p {
+  border: none;
+  color: blue;
+}
+
+section#sales_container {
+  display: none;
+}
+
+#sale:hover section#sales_container {
+  display: flex;
+  margin-left: -852px;
+}
+
+/* css code for a search container */
+
+#search-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Changed to repeat(4, 1fr) for four columns */
+  justify-content: space-between; /* Removed justify-content: space-around */
+  align-items: start; /* Removed align-items: start */
+}
+
+#search-container > div {
+  width: 310px;
+  height: 476px;
+  font-size: 14px;
+  margin-top: 40px;
+  margin-left: 15px;
+  color: #2d2d2d; /* Corrected color value */
+}
+
+#search-container > div > img {
+  width: 310px;
+  height: 396px;
+}
+#input-container > div {
+  width: 100%;
+  height: 70px;
+  color: black;
+  background-color: white;
+  border-bottom: 100;
+  text-align: center;
+  border-bottom: 1px solid rgb(238, 232, 232);
+  /* Adjust margin as needed */
+}
+#input-container > div > p {
+  color: #444242;
+}
+#input-container > div > h1 {
+  margin-top: -10px;
+}
+
+#result-container > div {
+  width: 100%;
+  height: 38px;
+  background-color: white;
+  border-bottom: 1px solid rgb(238, 232, 232);
+  color: rgb(93, 91, 91);
+  text-align: start;
+}
+#result-container > div > p {
+  margin-left: 30px;
+  color: #444242;
+}
+#loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid black;
+  border-radius: 50%;
+  margin: 20px auto;
+  animation: spin 1s linear infinite;
+  display: none; /* Initially hide the spinner */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#loading-spinner > p {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* mediaqueries section 
+ */
+
+ 
+@media all and (min-width: 480px) and (max-width: 720px) {
+  #section_4,
+  #section_6,
+  #section_3,
+  #section_1 {
+    display: none;
+  }
+
+  #section_2 > div {
+    height: 150px;
+  }
+
+  .icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon>img{
+    width: 100px;
+    height: 35px;
+  }
+  /* Men navbar css starts here */
+  .men-women {
+    width: 150px;
+  }
+
+  #asos{
+    font-size: 35px;
+  }
+  .anchor > a {
+    margin-top: -1px;
+    font-size: 35px;
+  }
+  .men-navbar {
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #525050;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+  #section_2,
+  #section_5 {
+    width: 300vw;
+  }
+  #section_5 {
+    height: 1500px;
+  }
+
+  #section_5 > button:nth-child(1) {
+    margin-top: 180px;
+    width: 1100px;
+    font-size: 55px;
+  }
+
+  #section_5 > button:nth-child(4),
+  #section_5 > button:nth-child(3) {
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 100px;
+  }
+
+  #section_5 > :nth-child(6) {
+    margin-top: 60px;
+    font-size: 30px;
+    color: rgb(97, 88, 88);
+  }
+
+  #section_5 > button:nth-child(4) {
+    margin-left: 20px;
+  }
+
+  #section_7 {
+    margin-top: -800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #section_7 > div {
+    margin-left: 200px;
+    width: 400px;
+  }
+
+  #section_8 {
+    margin-top: 600px;
+    margin-left: 710px;
+  }
+
+  #section_9 {
+    display: none;
+  }
+  #section_10 {
+    margin-top: 150px;
+    margin-left: 500px;
+  }
+
+  #section_10 > h1 {
+    font-size: 80px;
+  }
+  #section_10 > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #section_10 > div > img {
+    width: 500px;
+    height: 400px;
+  }
+
+  #section_11 {
+    margin-top: 1200px;
+    margin-left: 500px;
+  }
+  #section_11 > div > img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #section_12 {
+    width: 300vw;
+    height: 100vh;
+    margin-top: 50px;
+  }
+
+ 
+#section_12 > div > h2 {
+  font-size: 30px;
+  color: #6d6868;
+}
+#section_12 > div > li,
+a {
+  font-size: 24px;
+  list-style: none;
+  text-decoration: none;
+  color: #7f7b7b;
+  margin-top: 15px;
+}
+
+#section_12 > div:nth-child(4) > div > img {
+  width: 30px;
+  height: 30px;
+
+}
+
+
+  #section_13 {
+    width: 300vw;
+    height: 100px;
+   
+  }
+
+  #section_13 > div {
+  
+    font-size: 12px;
+   
+  }
+
+#section_12 > div:nth-child(4) > div > img {
+  width: 40px;
+  height: 40px;
+}
+}

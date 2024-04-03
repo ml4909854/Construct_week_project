@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join.html</title>
+</head>
+
+<body>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sign.html</title>
+    </head>
+
+    <body>
+
+        <style>
+            #sign_in>div {
+                cursor: pointer;
+                width: 100%;
+                height: 1800px;
+                background-color: #EEEEEE;
+                flex-direction: column;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #sign_in>div:nth-child(2) {
+                width: 651px;
+                border: 1px solid black;
+                height: 10px;
+            }
+
+            #sign_in>div>div:nth-child(1) {
+                height: 151px;
+                width: 651px;
+                margin-top: -200px;
+                margin-bottom: -40px;
+                background-color: transparent;
+                align-items: center;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            #sign_in>div>div:nth-child(2) {
+                width: 651px;
+                height: 1417px;
+                background-color: white;
+            }
+
+            #join {
+                width: 651px;
+                height: 70px;
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+                border-bottom: 1px solid rgb(188, 181, 181);
+                align-items: center;
+                text-align: center;
+            }
+
+            #joinPara {
+                width: 651px;
+                border-right: 1px solid rgb(173, 167, 167);
+            }
+
+            #join>div {
+                width: 330px;
+                height: 68px;
+                /* border: 1px solid black; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+            #google {
+                width: 651px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+            }
+
+            #google>div {
+                width: 180px;
+                height: 50px;
+                border: 1px solid black;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 30px;
+
+            }
+
+            #google img {
+                width: 20px;
+            }
+
+            .signUpWith {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+            }
+
+            #Input>div>p,
+            h4 {
+                text-align: center;
+                font: 14px;
+                padding: 0px 50px;
+            }
+
+            #Email_address {
+                margin-top: 20px;
+                margin-left: 23%;
+                text-align: justify;
+            }
+
+            #Email_address>label {
+                width: 360px;
+                font-size: 14px;
+                height: 23px;
+                margin: 0px 11px 11px 0px;
+                text-align: justify;
+                font-weight: 400px;
+            }
+
+            #Email_address>input {
+                width: 360px;
+                height: 49.8px;
+                padding: 0px 20px;
+            }
+
+            #Email_address>p {
+                color: rgb(74, 68, 68);
+            }
+
+            #joinAsosBtn {
+                width: 400px;
+                padding: 10px 20px;
+                background-color: rgb(137, 132, 132);
+                color: white;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+                transition: transform 0.3s ease-in-out;
+
+            }
+
+            #checkbox {
+                display: flex;
+                justify-content: start;
+                gap: 30px;
+            }
+
+            #checkbox>input {
+                width: 40px;
+            }
+
+            #clearBtn {
+                cursor: pointer;
+                margin-left: 40px;
+                padding: 10px 40px;
+                border: none;
+            }
+
+            #clearSign {
+                margin-top: 15px;
+                display: flex;
+                justify-content: start;
+                gap: 150px;
+            }
+
+            #clearSign>img {
+                width: 40px;
+                height: 40px;
+
+            }
+        </style>
+
+        <section id="sign_in">
+            <div>
+                <div>
+                    <img src="https://my.asos.com/Content/images/asos-logo-2022-93x28.png" alt="">
+                </div>
+
+                <div id="mahesh_kumar">
+                    <div id="join">
+                        <div id="joinDiv">
+                            <p id="joinPara">JOIN</p>
+                        </div>
+                        <div>
+                            <p id="signPage">SIGN IN</p>
+                        </div>
+                    </div>
+                    <DIV class="signUpWith">
+                        <h3>SIGN UP WITH...</h3>
+                    </DIV>
+                    <div id="google">
+                        <div>
+                            <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">
+                            <p>GOOGLE</p>
+
+                        </div>
+                        <div>
+                            <img src="https://cdn-icons-png.flaticon.com/128/731/731985.png" alt="">
+                            <p>APPLE</p>
+
+                        </div>
+                        <div>
+                            <img src="https://cdn-icons-png.flaticon.com/128/145/145802.png" alt="">
+                            <p>FACEBOOK</p>
+                        </div>
+                    </div>
+                    <!-- // input section starts here -->
+                    <div id="Input">
+                        <div>
+                            <p>Signing up with social is super quick. No extra passwords to remember - no brain fail.
+                                Don't worry, we'd never share any of your data or post anything on your behalf #NotEvil
+                            </p>
+                        </div>
+                    </div>
+                    <div class="signUpWith">
+                        <h3>OR SIGN UP WITH EMAIL</h3>
+                    </div>
+                    <DIV id="Email_address">
+                        <LABel>EMAIL ADDRESS :</LABel>
+                        <br>
+                        <br>
+                        <input type="email" name="" id="email">
+                        <p>we'll send your order confirmation here</p>
+                        <label for="">FIRST NAME :</label>
+                        <br>
+                        <br>
+                        <input type="text" name="" id="firstname">
+                        <br>
+                        <br>
+                        <label for="">LAST NAME :</label>
+                        <br>
+                        <br>
+                        <input type="text" id="lastname">
+                        <br>
+                        <br>
+                        <LABel>PASSWORD :</LABel>
+                        <br>
+                        <br>
+                        <input type="password" name="" id="passwords">
+                        <p>Must be 10 or more characters</p>
+
+                        <H3>DATE OF BIRTH </H3>
+                        <input style="width: 320px; height: 49.8px;" type="date" name="" id=""> <span>
+                            69 sleeps <br> to go! You need to be 16 over to user ASOS
+                        </span>
+                        <br>
+                        <br>
+                        <h3>MOSTLY INTERESTEDD IN :</h3>
+                        <div id="checkbox">
+                            <input type="checkbox" name="" id=""><span>WomensWear</span> <input
+                                type="checkbox"><span>Menswear</span>
+                        </div>
+                        <div>
+                            <h3>CONTACT PREFERENCES
+                            </h3>
+                            <span>Tell us which emails you`d like : </span><button id="clearBtn">CLEAR</button>
+                            <DIV id="clearSign">
+                                <p>Discounts and new drops</p>
+                                <img id="imageOfDiscounts" src="https://cdn-icons-png.flaticon.com/128/2951/2951459.png"
+                                    alt="">
+                            </DIV>
+                            <br>
+                            <br>
+                            <br>
+                            <button id="joinAsosBtn">JOIN ASOS</button>
+                        </div>
+
+                    </DIV>
+                </div>
+            </div>
+        </section>
+
+
+        <script>
+            /// js for  reach a signin Page 
+            let signPage = document.getElementById("signPage")
+            signPage.addEventListener("click", function () {
+                setTimeout(() => {
+                    window.location.href = "sign.html"
+                }, 1000);
+            })
+            let image = document.getElementById("imageOfDiscounts")
+
+            //js for chage text of clear buuton
+            let clearBtn = document.getElementById("clearBtn");
+            clearBtn.addEventListener("click", function () {
+                if (clearBtn.textContent === "CLEAR" || image.src === "https://cdn-icons-png.flaticon.com/128/2951/2951459.png") {
+                    clearBtn.textContent = "SELECT All";
+                    image.src = "https://cdn-icons-png.flaticon.com/128/2217/2217292.png"
+                } else {
+                    clearBtn.textContent = "CLEAR";
+                    image.src = "https://cdn-icons-png.flaticon.com/128/2951/2951459.png"
+                }
+            });
+
+            // js for input text
+            let email = document.getElementById("email")
+            let firstname = document.getElementById("firstname")
+            let lastname = document.getElementById("lastname")
+            let password = document.getElementById("passwords")
+
+            let joinAsosBtn = document.getElementById("joinAsosBtn")
+            joinAsosBtn.addEventListener("click", function () {
+                if (email.innerText === "" && firstname.innerHTML === "" && lastname.innerHTML === "" && password.innerHTML === "") {
+                    alert("please fill all the fields")
+                }
+            })
+
+
+            // js for join button
+
+
+            window.onload = function () {
+                setTimeout(() => {
+                    document.getElementById("joinDiv").style.borderBottom = "2px solid blue"
+                });
+            }
+
+        </script>
+    </body>
+
+    </html>
+
+</body>
+
+</html>
