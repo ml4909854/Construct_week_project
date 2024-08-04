@@ -483,7 +483,7 @@ cursor: pointer;
 
 section#New_in_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1165px;
   height: 468px;
   display: flex;
   flex-direction: column;
@@ -495,7 +495,7 @@ section#New_in_container {
 }
 
 #New_in_container > div {
-  width: 290px;
+  width: 270px;
   padding-top: 25px;
   padding-left: 20px;
   font-size: 14px;
@@ -578,10 +578,10 @@ section#New_in_container div p {
 
 section#clothes_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1165px;
   height: 468px;
-  margin-top: 565px;
-  margin-left: 1140px;
+  margin-top: 566px;
+  margin-left: 1028px;
   display: flex;
   text-align: justify;
   position: absolute;
@@ -591,7 +591,7 @@ section#clothes_container {
 }
 
 #clothes_container > div {
-  width: 290px;
+  width: 270px;
   padding-top: 25px;
   padding-left: 20px;
   font-size: 14px;
@@ -673,7 +673,7 @@ section#clothes_container {
 
 #trending {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1165px;
   height: 340px;
   position: absolute;
   display: flex;
@@ -684,7 +684,7 @@ section#clothes_container {
 
 #trending > div {
   height: 315px;
-  width: 312px;
+  width: 270px;
   margin-top: 20px;
   margin-left: 5px;
   display: flex;
@@ -728,7 +728,7 @@ section#clothes_container {
 
 #trends:hover #trending {
   display: flex;
-  margin-left: 996px;
+  margin-left: 884px;
   margin-top: 438px;
 }
 
@@ -736,10 +736,10 @@ section#clothes_container {
 
 section#Dress_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1165px;
   height: 468px;
-  margin-top: 565px;
-  margin-left: 868px;
+  margin-top: 566px;
+  margin-left: 756px;
   display: flex;
   text-align: justify;
   position: absolute;
@@ -749,7 +749,7 @@ section#Dress_container {
 }
 
 #Dress_container > div {
-  width: 298px;
+  width: 270px;
   padding-top: 25px;
   padding-left: 20px;
   font-size: 14px;
@@ -832,14 +832,14 @@ section#Dress_container {
 #dressed:hover section#Dress_container {
   display: flex;
   /* margin-left: 996px;
-    margin-top: 438px; */
+  margin-top: 438px; */
 }
 
 /* css for shoe section */
 
 section#shoes_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1165px;
   height: 468px;
   display: flex;
   text-align: justify;
@@ -850,7 +850,7 @@ section#shoes_container {
 }
 
 #shoes_container > div {
-  width: 298px;
+  width: 270px;
   padding-top: 25px;
   padding-left: 20px;
   font-size: 14px;
@@ -932,7 +932,7 @@ section#shoes_container {
 
 #shoesess:hover section#shoes_container {
   display: flex;
-  margin-left: -272px;
+  margin-left: -255px;
   margin-top: 17px;
 }
 
@@ -940,10 +940,10 @@ section#shoes_container {
 
 section#accesories_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1165px;
   height: 468px;
   /* margin-top: 565px;
-  margin-left: 1140px; */
+margin-left: 1140px; */
   display: flex;
   text-align: justify;
   position: absolute;
@@ -953,7 +953,7 @@ section#accesories_container {
 }
 
 #accesories_container > div {
-  width: 298px;
+  width: 270px;
   padding-top: 25px;
   padding-left: 20px;
   font-size: 14px;
@@ -991,7 +991,7 @@ section#accesories_container {
 
 #accesories:hover section#accesories_container {
   display: flex;
-  margin-left: -349px;
+  margin-left: -316px;
   margin-top: 17px;
 }
 
@@ -999,7 +999,7 @@ section#accesories_container {
 
 section#facebody_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1165px;
   margin-top: 17px;
   display: flex;
   text-align: justify;
@@ -1010,7 +1010,7 @@ section#facebody_container {
 }
 
 #facebody_container > div {
-  width: 298px;
+  width: 270px;
   padding-top: 25px;
   padding-left: 20px;
   font-size: 14px;
@@ -1098,7 +1098,7 @@ section#facebody_container {
 
 #Facebody:hover section#facebody_container {
   display: flex;
-  margin-left: -440px;
+  margin-left: -407px;
   margin-top: 17px;
 }
 
@@ -1106,7 +1106,7 @@ section#facebody_container {
 
 section#brands_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1165px;
   height: 468px;
   display: flex;
   flex-direction: column;
@@ -1118,7 +1118,7 @@ section#brands_container {
 }
 
 #brands_container > div {
-  width: 290px;
+  width: 270px;
   padding-top: 25px;
   padding-left: 20px;
   font-size: 14px;
@@ -1195,13 +1195,13 @@ section#brands_container div p {
 #brands:hover section#brands_container {
   display: flex; /* Change to flex */
   margin-top: 17px;
-  margin-left: -528px;
+  margin-left: -495px;
 }
 
 /* css for the sportswear function */
 section#sports_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1165px;
   height: 468px;
   /* margin-top: 565px; */
   /* margin-left: 868px; */
@@ -1214,7 +1214,7 @@ section#sports_container {
 }
 
 #sports_container > div {
-  width: 298px;
+  width: 270px;
   padding-top: 25px;
   padding-left: 20px;
   font-size: 14px;
@@ -1297,14 +1297,14 @@ section#sports_container {
 #sportwear:hover section#sports_container {
   display: flex; /* Change to flex */
   margin-top: 566px;
-  margin-left: 47px;
+  margin-left: 0px;
 }
 
 /* css code for a topshop section */
 
 section#topshops_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1278px;
   height: 468px;
   margin-left: -679px;
   margin-top: 17px;
@@ -1372,7 +1372,7 @@ section#topshops_container {
 
 #market_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1185px;
   height: 280px;
   margin-left: -753px;
   margin-top: 17px;
@@ -1385,7 +1385,7 @@ section#topshops_container {
 
 #market_container > div {
   height: 315px;
-  width: 312px;
+  width: 290px;
   margin-top: 20px;
   margin-left: 5px;
   display: flex;
@@ -1446,7 +1446,7 @@ section#topshops_container {
 
 section#sales_container {
   background-color: #eeeeee;
-  width: 1280px;
+  width: 1165px;
   height: 468px;
   margin-top: 17px;
   margin-left: -845px;
@@ -1459,7 +1459,7 @@ section#sales_container {
 }
 
 #sales_container > div {
-  width: 594px;
+  width: 520px;
   padding-top: 25px;
   padding-left: 20px;
   font-size: 14px;
@@ -1522,8 +1522,9 @@ section#sales_container {
 
 #sale:hover section#sales_container {
   display: flex;
-  margin-left: -852px;
+  margin-left: -819px;
 }
+
 
 /* css code for a search container */
 

@@ -58,7 +58,7 @@ setInterval(() => {
       let div = document.createElement("div");
       let image = document.createElement("img");
       image.classList.add("custom-class");
-      image.style.width = "299.5px";
+      image.style.width = "285.5px";
       image.style.height = "382.11px";
       image.src = Element.image;
       let category = document.createElement("p");
